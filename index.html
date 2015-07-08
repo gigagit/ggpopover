@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gigagit PopOver</title>
+    <link href="assets/css/ggpopover.css" rel="stylesheet" />
+</head>
+<body>
+
+    <br /><br /><br /><br />
+    <button type="button"
+            data-toggle="popover"
+            data-placement="auto right"
+            data-arrowcolor="#eeeeee"
+            data-bordercolor="#bbbbbb"
+            data-title-backcolor="#cccccc"
+            data-title-bordercolor="#bbbbbb"
+            data-title-textcolor="#444444"
+            data-content-backcolor="#eeeeee"
+            data-content-textcolor="#888888"
+            title="Popover title"
+            data-content="And here's some amazing content. It's very engaging. Right?">
+        Click to toggle popover
+    </button>
+
+    <script src="assets/js/jquery-2.1.3.min.js"></script>
+    <script src="assets/js/ggpopover.js"></script>
+    <script type="text/javascript">
+        $('[data-toggle="popover"]').ggpopover();
+    </script>
+
+</body>
+</html>
